@@ -38,7 +38,13 @@ Options:
   --help                Show this message and exit.
 ```
 
-## Example
+# Examples
+
+## Basic Usage
+
+`nbdocgen --input <input_notebook> --output <output_notebook>`
+
+## Advanced Usage
 In this example, we show how to use `temperature` and `base_prompt` options. 
 
 ```
