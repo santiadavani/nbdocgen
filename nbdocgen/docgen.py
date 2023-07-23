@@ -12,7 +12,7 @@ import sys
 
 FORMAT = "%(message)s"
 logging.basicConfig(
-    level=os.environ.get("NBDOCGEN_LOG_LEVEL", "ERROR"),
+    level=os.environ.get("LOGLEVEL", "ERROR"),
     format="%(asctime)s - %(message)s",
     datefmt="[%X]",
     handlers=[RichHandler()],
