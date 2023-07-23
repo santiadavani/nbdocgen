@@ -39,7 +39,10 @@ Options:
 ```
 
 ## Example
-In this example, we show how to use `temperature` and `base_prompt` options. You can set the LOGLEVEL to ERROR to minimize the logs printed on the console.
+In this example, we show how to use `temperature` and `base_prompt` options. 
+
 ```
-LOGLEVEL=ERROR nbdocgen --input ~/Downloads/input_notebook.ipynb --output ./output_notebook.ipynb --temperature 0.3 --base_prompt "Please generate 5 sentence markdown documentation for the code below"
+nbdocgen --input ~/Downloads/input_notebook.ipynb \
+--output ./output_notebook.ipynb --temperature 0.3 \
+--base_prompt "Please generate 5 sentence markdown documentation for the code below"
 ```

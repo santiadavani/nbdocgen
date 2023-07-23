@@ -12,7 +12,7 @@ import sys
 
 FORMAT = "%(message)s"
 logging.basicConfig(
-    level=os.environ.get("LOGLEVEL", "ERROR"),
+    level=os.environ.get("LOG_LEVEL", "DEBUG"),
     format="%(asctime)s - %(message)s",
     datefmt="[%X]",
     handlers=[RichHandler()],
