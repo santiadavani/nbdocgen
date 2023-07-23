@@ -29,7 +29,7 @@ Usage: nbdocgen [OPTIONS]
 Options:
   --input PATH          Input Jupyter Notebook
   --output PATH         Output Jupyter Notebook
-  --temperature FLOAT   Temperate for OpenAI  [default: 0.7]
+  --temperature FLOAT   Temperature for OpenAI  [default: 0.7]
   --top_p FLOAT         Top p for OpenAI  [default: 1.0]
   --max_tokens INTEGER  Max tokens for OpenAI completion  [default: 256]
   --base_prompt TEXT    Base prompt for OpenAI completion  [default: Please
